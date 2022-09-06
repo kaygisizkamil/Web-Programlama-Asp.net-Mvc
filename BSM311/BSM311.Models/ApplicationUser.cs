@@ -12,6 +12,7 @@ namespace BSM311.Models
 {
     public class ApplicationUser : IdentityUser
     {
+        public string? gitDegisiklikDenemesi{set;get;}
         [Required]
         public string Name { get; set; }
         public string? StreetAddress { get; set; }
